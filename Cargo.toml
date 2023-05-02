@@ -1,0 +1,20 @@
+[package]
+name = "collatz-conjecture-visualizer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.21.0"
+lazy_static = "1.4.0"
+nannou = "0.18.1"
+nannou_egui = "0.5.0"
+
+[profile.release]
+opt-level = 3
+debug = false
+codegen-units = 1
+lto = true
+strip = true
+panic = "abort"
