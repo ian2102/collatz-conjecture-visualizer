@@ -11,7 +11,7 @@ follow the instructions at https://www.rust-lang.org/tools/install
 
 Clone this repository and navigate to the project directory:
 ```
-git clone https://github.com/ian2102/collatz-conjecture-visualizer/collatz-conjecture-visualizer.git
+git clone https://github.com/ian2102/collatz-conjecture-visualizer.git
 cd collatz-conjecture-visualizer
 ```
 Run the application using the following command:
